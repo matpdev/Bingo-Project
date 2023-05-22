@@ -11,7 +11,6 @@ function App() {
     number: null,
     letter: null,
   });
-  const [currentNumber, setCurrentNumber] = useState();
   const [bingoNumbers, setBingoNumbers] = useState([]);
   const paragraphStyles = {
     width: 50,
